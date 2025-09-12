@@ -1,0 +1,16 @@
+# Web App Framework
+streamlit==1.37.0
+
+# PDF Handling
+pdfplumber==0.11.0
+PyPDF2==3.0.1  # pdfplumber dependency
+
+# OCR
+pytesseract
+Pillow
+opencv-python-headless
+numpy
+
+# Word Document Handling
+python-docx
+lxml  # backend parser required by python-docx
