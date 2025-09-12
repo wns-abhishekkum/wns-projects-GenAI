@@ -10,6 +10,7 @@ It supports:
 
 ---
 
+
 ## Features
 
 - Extracts text from PDF and Word documents
@@ -23,6 +24,15 @@ It supports:
 
 ---
 
+
+Requirements:
+pip install -r reqiurements.txt
+
+Run:
+    streamlit run file with .py extension
+
+---
+
 ## Installation
 
 1. **Clone the repository**
@@ -32,8 +42,6 @@ git clone https://github.com/your-username/invoice-bounding-box.git
 cd invoice-bounding-box
 
 ## Install dependencies
-
->> pip install streamlit pdfplumber opencv-python-headless numpy pillow python-docx pytesseract
 
 
 ## Install Tesseract OCR
@@ -46,7 +54,9 @@ cd invoice-bounding-box
 
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
->> Usage
+
+---
+## Usage
 
 Run the Streamlit app:
 
