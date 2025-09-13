@@ -26,8 +26,23 @@ output_dir = r"C:\Users\u428150\OneDrive - WNS\Desktop\wns-projects-GenAI\Invoic
 
 os.makedirs(output_dir, exist_ok=True)
 
-# Function to detect language using spaCy
+
 def detect_language(text):
+    """
+    Detect the language of a given text using a loaded spaCy language model.
+
+    Args:
+        text (str): The input text whose language needs to be detected.
+
+    Returns:
+        str: The detected language code (e.g., 'en' for English, 'fr' for French).
+             If detection fails, returns 'unknown'.
+
+    Notes:
+        - Requires `nlp` to be a spaCy pipeline with a language detector component.
+        - If the spaCy model does not support language detection, this function 
+          may always return the default language or raise an exception.
+    """
     try:
         doc = nlp(text)
         return doc.lang_
@@ -35,8 +50,18 @@ def detect_language(text):
         print(f"Error detecting language: {e}")
         return 'unknown'
 
-# Function to translate text using transformers
+
 def translate_text(text, dest_lang='en'):
+    """
+    Translate the given text into a specified target language using a translation pipeline.
+
+    Args:
+        text (str): The input text to be translated.
+        dest_lang (str, optional): The target language code (default is 'en' for English).
+
+    Returns:
+        str: The translated text. If an error occurs, returns the original text.
+    """
     try:
         max_length = 400
         lines = text.split('\n')
@@ -65,8 +90,20 @@ def translate_text(text, dest_lang='en'):
         print(f"Error translating text: {e}")
         return text
 
-# Function to extract text from PDF
+
 def extract_text_from_pdf(pdf_path):
+    """
+    Translate the given text from a source language into a specified target language.
+
+    Args:
+        text (str): The input text to be translated.
+        src_lang (str, optional): The source language code. Defaults to 'auto' 
+            (let the model auto-detect if supported).
+        dest_lang (str, optional): The target language code (default is 'en' for English).
+
+    Returns:
+        str: The translated text. If an error occurs, returns the original text.
+    """
     try:
         pages = convert_from_path(pdf_path)
         text = ''
