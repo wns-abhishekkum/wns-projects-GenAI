@@ -15,8 +15,7 @@ def extract_pdf_info(pdf_path):
     """
     Extract text, words, and image from the first page of a PDF.
 
-    Args:
-        pdf_path (str or file-like): Path to the PDF file or file-like object.
+    Args: Path to the PDF file or file-like object.
 
     Returns:
         tuple:
@@ -37,8 +36,7 @@ def extract_docx_info(docx_path):
     """
     Extract text from a DOCX file and generate a simple image representation.
 
-    Args:
-        docx_path (str or file-like): Path to the DOCX file or file-like object.
+    Args: Path to the DOCX file or file-like object.
 
     Returns:
         tuple:
