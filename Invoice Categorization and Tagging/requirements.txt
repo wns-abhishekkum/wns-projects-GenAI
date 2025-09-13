@@ -1,0 +1,10 @@
+streamlit 
+pdfplumber 
+opencv-python-headless 
+numpy 
+pillow 
+python-docx 
+pytesseract
+transformers
+sentencepiece
+sacremoses
