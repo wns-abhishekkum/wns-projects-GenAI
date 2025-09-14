@@ -1,0 +1,17 @@
+{
+    "chatbot": {
+      "hello": ["Hello there!", "Hi, how’s it going?", "Hey!"],
+      "bye": ["Goodbye!", "See you soon!", "Take care!"]
+    },
+    "stories": {
+      "characters": ["an old wizard", "a young detective"],
+      "settings": ["in a magical land", "in a bustling city"],
+      "conflicts": ["had to solve a great mystery", "faced a powerful enemy"],
+      "endings": ["and became a hero.", "but the story had just begun."]
+    },
+    "jokes": {
+      "setups": ["Why did the computer go to the doctor?"],
+      "punchlines": ["Because it caught a virus!"]
+    }
+  }
+  
