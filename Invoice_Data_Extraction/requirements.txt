@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pytesseract
+Pillow
+pymupdf
+requests
+langchain
+openai
+python-dotenv
+pdf2image
