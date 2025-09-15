@@ -38,6 +38,7 @@ python -m spacy download en_core_web_sm
 
 uvicorn app:app --reload
 
+![Image Alt](https://github.com/wns-abhishekkum/wns-projects-GenAI/blob/3add8f1413c12885cc8f9aef38474eb306fed8ca/Invoice%20Categorization%20and%20Tagging/Screenshot%20(43).png)
 
 ###  Clone this repository
 ```bash
