@@ -139,7 +139,7 @@ python-multipart
 ---
 <!-- ![Alt text](Screenshot(46).png) -->
 ![Invoice Screenshot](Invoice_Data_Extraction/Screenshot(47).png)
-
+ ![Image Alt](https://github.com/wns-abhishekkum/wns-projects-GenAI/blob/528ebb8eb1f79333bb6a5f1078f215ee76892d1c/Invoice_Data_Extraction/Screenshot%20(47).png)
 
 
 
