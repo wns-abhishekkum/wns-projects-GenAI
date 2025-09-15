@@ -45,6 +45,9 @@ git clone https://github.com/YOUR_USERNAME/invoice-categorization-tagging.git
 cd invoice-categorization-tagging
 
 
+![Image Alt](https://github.com/wns-abhishekkum/wns-projects-GenAI/blob/3add8f1413c12885cc8f9aef38474eb306fed8ca/Invoice%20Categorization%20and%20Tagging/Screenshot%20(43).png)
+
+
 ## sample output
 
 {
