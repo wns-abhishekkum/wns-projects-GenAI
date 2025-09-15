@@ -32,6 +32,11 @@ Run:
     streamlit run file with .py extension
 
 ---
+ ![Image Alt](https://github.com/wns-abhishekkum/wns-projects-GenAI/blob/4a6057836326d5aa35a5765cb3b4070435f2dad4/Invoice%20BB%20detection/Screenshot%20(35).png)
+
+ ![Image Alt](https://github.com/wns-abhishekkum/wns-projects-GenAI/blob/4a6057836326d5aa35a5765cb3b4070435f2dad4/Invoice%20BB%20detection/Screenshot%20(34).png)
+
+
 
 ## Installation
 
