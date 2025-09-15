@@ -23,6 +23,8 @@ It includes three fun mini-projects:
 
 ---
 
+ ![Image Alt](https://github.com/wns-abhishekkum/wns-projects-GenAI/blob/35f5f52970b4366b75f485aca6db5873d8a76580/Text_Generation/Screenshot%20(44).png)
+
 ## 🛠 Requirements
 - Python **3.8+** (works on Python 3.12+ as well)
 - No external libraries required (only uses Python standard library)
